@@ -14,7 +14,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "python --version, conda install -c anaconda flask",
+	"postCreateCommand": "python --version, conda install -c anaconda flask, pip install mpld3",
 	"customizations": {
 		"vscode": {
 			"extensions": [
